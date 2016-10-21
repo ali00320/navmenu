@@ -1,0 +1,89 @@
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 16px;
+    line-height: 1.6;
+    font-family: 'Lora', 'Helvetica', 'Open Sans' serif;
+}
+html, body{
+    font-family: 'Lora', 'Helvetica', 'Open Sans', serif;
+    background-color: #F0FFFF;
+}
+h1{
+    font-family: 'Raleway','Futura','Proxima Nova', sans-serif;
+    font-size: 6.854rem;
+    padding: 1rem 2rem;
+}
+h2{
+    font-size: 4.23rem;
+    font-family: 'Raleway','Futura','Proxima Nova', sans-serif;
+    padding: 1rem 2rem;
+}
+
+nav li{
+    font-size: 2.618rem;
+}
+
+p{
+    font-size: 1.618rem;
+    padding: 1rem 2rem;
+}
+.wrapper{
+    max-width: 1400px; 
+    width: 80%;
+    margin: 0 auto;
+    background-color: #5A8C8C;
+    color: #3C4040;
+}
+header{
+    border-bottom: 0.8rem solid #F0FFFF;
+    background-color: #395959;
+    color: #CCD9D9;
+}
+.menu-h{
+    width: 100%;
+}
+    .menu-h li{
+        width: 20%;
+        float: left;
+        list-style-type: none;
+        
+    }
+        .menu-h a,
+        .menu-h a:link,
+        .menu-h a:visited{
+        width: 100%;
+        padding: 0;
+        }
+        .menu-h a:hover,
+        .menu-h a:active{
+        color: #CDA0FF;
+        }
+.menu-v{
+    width: 20%;
+    float:left;
+}
+    .menu-v li{
+        display: block;
+        width: 100%;
+        list-style-type: none;
+    }
+        .menu-v a,
+        .menu-v a:link,
+        .menu-v a:visited{
+         width: 100%;   
+        }
+        .menu-v a:hover,
+        .menu-v a:active{
+        background-color: #CCD9D9;    
+        }
+main{
+    width:80%;
+    float: right;
+}
+footer{
+    clear:both;
+}
